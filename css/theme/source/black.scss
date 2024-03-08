@@ -12,7 +12,7 @@
 
 
 // Include theme-specific fonts
-@import url(./fonts/source-sans-pro/source-sans-pro.css);
+@import url(./fonts/hack/hack.css);
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -22,18 +22,20 @@ $mainColor: #fff;
 $headingColor: #fff;
 
 $mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingTextShadow: none;
+$mainFont: 'Hack';
+$headingFont: 'Hack', Helvetica, sans-serif;
+$headingTextShadow: 0px 0px 10px red;
+$heading1TextShadow: 0px 0px 10px red;
+
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColor: #42affa;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: rgba( $linkColor, 0.75 );
 
-$heading1Size: 2.5em;
-$heading2Size: 1.6em;
+$heading1Size: 2.0em;
+$heading2Size: 1.3em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
